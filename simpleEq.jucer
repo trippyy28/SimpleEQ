@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="nnRLXd" name="SimpleEq" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
-              cppLanguageStandard="17">
+              cppLanguageStandard="17" pluginFormats="buildAU,buildStandalone,buildVST3">
   <MAINGROUP id="dhBwq8" name="SimpleEq">
     <GROUP id="{965478BE-FF9B-0F43-F493-192F9EF93333}" name="Source">
       <FILE id="nXtCYJ" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -34,6 +34,7 @@
         <MODULEPATH id="juce_graphics" path="../../../../../Applications/JUCE/modules"/>
         <MODULEPATH id="juce_gui_basics" path="../../../../../Applications/JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../Applications/JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
   </EXPORTFORMATS>
@@ -47,6 +48,7 @@
     <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
